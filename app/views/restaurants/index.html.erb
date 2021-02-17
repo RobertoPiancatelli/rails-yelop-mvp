@@ -1,0 +1,8 @@
+<h1>Restaurants</h1>
+
+<% @restaurants.each do |restaurant| %>
+
+<h2><%= restaurant.name %> <%= restaurant.address %></h2>
+<h4><%= restaurant.phone_number %> <p>It is a <%= restaurant.category %> restaurant<p></h4>
+<hr>
+<% end %>
